@@ -1,0 +1,9 @@
+<svg id="Group_300" data-name="Group 300" xmlns="http://www.w3.org/2000/svg" width="258.605" height="250.042" viewBox="0 0 258.605 250.042">
+  <path id="Path_147" data-name="Path 147" d="M125.021,0A125.021,125.021,0,1,1,0,125.021,125.021,125.021,0,0,1,125.021,0Z" transform="translate(8.564)" fill="#1d2028"/>
+  <g id="Group_43" data-name="Group 43" transform="translate(0 138.461) rotate(-30)">
+    <path id="Path_144" data-name="Path 144" d="M53.917,0h80.876a53.917,53.917,0,0,1,0,107.834H53.917A53.917,53.917,0,1,1,53.917,0Z" transform="translate(0 0)" fill="#7a89ab"/>
+    <path id="Path_142" data-name="Path 142" d="M47.113,0h70.669V107.834H47.113C21.093,107.834,0,83.695,0,53.917S21.093,0,47.113,0Z" transform="translate(0 0)" fill="#00b4db"/>
+    <path id="Path_143" data-name="Path 143" d="M70.458,0H0" transform="translate(115.767 51.671)" fill="none"/>
+    <path id="Path_146" data-name="Path 146" d="M14.908,0A14.908,14.908,0,0,1,29.816,14.908V44.724A14.908,14.908,0,1,1,0,44.724V14.908A14.908,14.908,0,0,1,14.908,0Z" transform="translate(152.253 36.762) rotate(90)" fill="#fff"/>
+  </g>
+</svg>
