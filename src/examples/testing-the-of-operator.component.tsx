@@ -39,8 +39,6 @@ useEffect(() => {
       })
     );
 
-    // const
-
   // const ofSourceSubscription = ofSource.subscribe((value: number) => console.log('ofSource value', value));
   // const arraySourceSubscription = arraySource.subscribe((value: number) => console.log('arraySource value', value));
   // const promiseSourceSubscription = promiseSource.subscribe((value: unknown) => console.log('promiseSource value', value));

@@ -30,7 +30,7 @@ return (
       <Router>
         <Header /> 
         <Switch>
-            <Route path='/examples/:exampleSlug'>
+            <Route path='/examples/:exampleSlug/:isFolder?'>
               <ExamplePage />
             </Route>
             <Route path='/'>

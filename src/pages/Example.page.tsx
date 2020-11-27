@@ -2,13 +2,14 @@ import React from 'react';
 import { useParams } from "react-router-dom";
 
 const ExamplePage: React.FC<{}> = () => {
-  const { exampleSlug } = useParams<{exampleSlug: string}>();
-  const ExampleComponent = React.lazy(() => import(`../examples/${exampleSlug}.component`));
+  const { exampleSlug, isFolder } = useParams<{exampleSlug: string, isFolder?: string}>();
+  const ExampleComponent = (Boolean(isFolder)) ?
+   require(`../examples/${exampleSlug}`)?.default : 
+   require(`../examples/${exampleSlug}.component`)?.default
+   ; 
   
     return (
-        <div >
-            <h1> {'Example page'} </h1>
-            <h1> {exampleSlug} </h1>
+        <div style={{padding: 8}}>
             <ExampleComponent />
         </div>
     );
